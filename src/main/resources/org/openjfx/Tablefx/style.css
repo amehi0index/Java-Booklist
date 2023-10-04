@@ -1,0 +1,130 @@
+
+.root {
+    -fx-font-size: 16px;
+    -fx-font-family: sans-serif;
+    -fx-background-color: #ffffff;
+}
+
+.container{
+	-fx-padding: 20px;
+}
+
+.header-section {
+    -fx-padding: 10px;
+    -fx-font-size: 32px;
+    -fx-background-color: teal;
+}
+
+.header-section Label {
+    -fx-padding: 10px;
+     -fx-text-fill: #ffffff;
+}
+
+#account {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+}
+
+.form-section {
+    -fx-border-width: 1;
+    -fx-border-color: transparent transparent transparent transparent;
+}
+
+.form-section Label {
+    -fx-font-size: 18px;
+    -fx-padding: 15px 0 2px 0;
+}
+
+.form-section VBox  TextField{
+	-fx-padding:10px 20px;
+}
+
+.form-section Button{
+	-fx-padding: 10px 20px;
+	-fx-background-color: #008080;
+	-fx-text-fill: #ffffff;
+	-fx-cursor: pointer;
+	-fx-transition: all 0.7s ease;
+}
+
+.form-section Button:hover{
+	-fx-background-color: #20b2aa;
+}
+
+.list-section{
+	-fx-box-border: #008080;
+	-fx-border-radius: 2px;
+}
+
+.list-section Label{
+	-fx-font-size: 18px;
+	-fx-padding: 8px 20px;
+	-fx-background-color: #008080;
+	-fx-text-fill: #ffffff;
+}
+
+.list-section Button{
+	-fx-padding: 10px 20px;
+	-fx-background-color: #008080;
+	-fx-text-fill: #ffffff;
+	-fx-cursor: pointer;
+	-fx-transition: all 0.7s ease;
+}
+
+.list-section Button:hover{
+	-fx-background-color: #20b2aa;
+}
+
+
+.table-view{
+	-fx-box-border: transparent;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header .label{
+   -fx-alignment: CENTER_LEFT;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #1dbbdd44, #93f9b944);
+    -fx-background-insets: 0 11px 0 0;
+    -fx-padding: 0 0 5px 0;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-row-cell{
+	-fx-border-color: transparent;
+	-fx-table-cell-border-color:transparent;
+}
+
+.table-row-cell:selected-row {
+    -fx-background-color: purple;
+}
+
+#delete-col{
+	 -fx-alignment: CENTER;
+}
+
+#delete-btn{
+	-fx-font-size: 12px;
+	-fx-padding: 4px 8px;
+	-fx-background-color: red;
+	-fx-text-fill: #ffffff;
+	-fx-alignment: CENTER;
+	-fx-border-radius: 2px;
+}
+
+#footer-section {
+    -fx-alignment: center;
+    -fx-padding: 10 10 10 10;
+    -fx-border-width: 1;
+    -fx-border-color: #E8E8E8 transparent transparent transparent;
+}
